@@ -1,0 +1,232 @@
+body{
+    background-color: rgb(123, 113, 113);
+}
+
+.container{
+    background-image: url(./imgs/PK-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.backimg{
+    padding-right: 10vw;
+    padding-left: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+
+    background-color:red;
+border: 1px solid red;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+    padding: 10px 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.h1{
+    font-family: 'Work Sans', sans-serif;
+    color: white !important;
+}
+.h4{
+    font-family: 'Martian Mono', monospace;
+    color: white;
+}
+
+.input{
+    padding: 20px 10px;  
+}
+.btn1{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    padding: 20px 20px; 
+    border-radius: 5px ;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.container2{
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* position: absolute; */
+}
+.h2{
+    display: inline-block;
+    color: red;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px;
+}
+.tvimg1{
+padding: 10px;
+}
+.container3{
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.container4{
+    background-color: black;
+    /* display: ; */
+    /* justify-content: space-evenly; */
+    padding: 10%;
+    
+}
+.h5{
+color: red;
+}
+.p{    
+    color: red;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+.h6{
+    color: red;
+}
+.h7{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.container5{
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    
+}
+.c1{
+    border: 1px solid rgb(60, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(60, 54, 54);
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.c1:hover{
+   background-color:  rgb(117, 94, 94);
+}
+
+.center{
+    /* align-items: center; */
+    padding: 40px;
+}
+.container6 {
+display: flex;
+justify-content: space-around;
+background-color: black;
+/* font-family: 'Work Sans', sans-serif; */
+    
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.footer{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer1{
+    padding: 80px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer2{
+    padding: 80px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer3{
+    padding: 80px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .backimg img{
+        width: 150px !important;
+        height: 150px !important;
+        padding-top: 10px;
+        position: relative;
+        left: -15px;
+
+    }
+    .btn{
+        width: 120px !important;
+        height: 45px !important;
+        font-size: 18px !important;
+
+    }
+    .container{
+        width: 190% !important;
+    }
+    .container2{
+        width: 190% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .tvimg1{
+        width: 90% !important;
+        margin: 0px !important;
+       
+    }
+    .h2 h1{
+        font-size: 28px !important;
+        line-height: 40px;
+    }
+    .tvimg{
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .h2 h1 {
+        margin: 0px !important;
+        float: left;
+    }
+   .typ h1{
+    font-size: 30px !important;
+   }
+   .typ h4{
+    font-size: 20px !important;
+    line-height: 30px !important;
+   }
+   .input{
+    height: 60px;
+    width: 300px;
+    font-size: 18px !important;
+
+   }
+   .btn1{
+    width: 120px !important;
+    height: 59px !important;
+    font-size: 18px !important;
+    padding-top: -16px !important;
+   }
+}
+   
+    
